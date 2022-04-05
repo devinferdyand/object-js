@@ -1,0 +1,16 @@
+<script>
+  var mobil = {
+    merk: "Toyota xenia",
+    tipe: "MPV",
+    harga: 200000000,
+    warna: "merah",
+    hidupkan: function () {
+      return "Mesin Dihidupkan";
+    },
+  };
+
+  var prop;
+  for (prop in mobil) {
+    console.log("Isi " + prop + " = " + mobil[prop]);
+  }
+</script>
